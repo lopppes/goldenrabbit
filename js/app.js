@@ -38,7 +38,7 @@ const toggleNavbar = function () {
   navbar.classList.toggle("active");
   navToggleBtn.classList.toggle("active");
   overlay.classList.toggle("active");
-  document.body.classList.toggle("nav-active");
+  document.body.clasAsList.toggle("nav-active");
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
@@ -220,7 +220,8 @@ const over = document.querySelector("[data-over]");
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
+const modalText = document.querySe
+lector("[data-modal-text]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -247,4 +248,3 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 // add click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 over.addEventListener("click", testimonialsModalFunc);
-
