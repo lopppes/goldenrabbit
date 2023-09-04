@@ -220,8 +220,7 @@ const over = document.querySelector("[data-over]");
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySe
-lector("[data-modal-text]");
+const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
