@@ -727,8 +727,6 @@ color: var(--yellow);
 
 
 
-
-
 /*-----------------------------------*\
   resumo
 \*-----------------------------------*/
@@ -1333,7 +1331,10 @@ color: var(--yellow);
     gap: 10%;
   }
 
-  .title-wrapper .section-title { margin-block-end: 0; margin-top: 30px; }
+  .title-wrapper .section-title { 
+    margin-block-end: 0; 
+  
+  }
 
   .title-wrapper .section-text { margin-block-start: 40px; }
 
@@ -1504,9 +1505,6 @@ color: var(--yellow);
   .hero-title { word-break: normal;}
 
   .hero .section-text { margin-block-end: 52px; }
-
- 
-
  
 
 }
@@ -1658,8 +1656,6 @@ color: var(--yellow);
    max-width: unset;
    border-radius: 0;
  }
-
-
  
 
 
@@ -1683,8 +1679,6 @@ color: var(--yellow);
   max-width: 100%;
   min-width: 50%;
 }
-
-
 
 
 }
