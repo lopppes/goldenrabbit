@@ -473,7 +473,6 @@ color: var(--yellow);
 }
 
 
-
 /*-----------------------------------*\
   home
 \*-----------------------------------*/
@@ -799,9 +798,6 @@ color: var(--yellow);
 }
 
 
-
-
-
 /*-----------------------------------*\
   #acordeon
 \*-----------------------------------*/
@@ -885,7 +881,7 @@ background-image: url(../img/setaON.png);
 
 
 /**
-* #testimonials 
+* testimonials 
 */
 .centralizarTetmonials{
  display: flex;
@@ -1134,7 +1130,7 @@ border-radius: 50%;
 
 
 /*-----------------------------------*\
-contato
+ contato
 \*-----------------------------------*/
 
 .contact { padding-block-end: 0; margin-bottom: 80px;}
@@ -1220,7 +1216,7 @@ color: var(--yellow);
 
 
 /*-----------------------------------*\
-  #FOOTER
+  footer
 \*-----------------------------------*/
 
 .footer {
@@ -1262,17 +1258,17 @@ color: var(--yellow);
 
 
 /*-----------------------------------*\
-  #MEDIA QUERIES
+  MEDIA QUERIES
 \*-----------------------------------*/
 
 /**
- * responsive for large than 575px screen
+ * responsive 575px 
  */
 
 @media (min-width: 575px) {
 
   /**
-   * REUSED STYLE
+   * container
    */
 
   .container { 
@@ -1286,7 +1282,7 @@ color: var(--yellow);
 
 
   /**
-   * FOOTER
+   * footer
    */
 
   .footer-list-title { margin-block-end: 8px; }
@@ -1294,35 +1290,22 @@ color: var(--yellow);
 }
 
 
-
-
-
 /**
- * responsive for large than 768px screen
+ * responsive  768px 
  */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
-
   :root {
 
     /**
-     * typography
+     * tipografia
      */
 
     --fs-2: 6rem;
     --fs-3: 5.5rem;
 
   }
-
-
-
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 720px; }
 
@@ -1364,11 +1347,6 @@ color: var(--yellow);
     
   }
 
-
-
-
-
-
   /**
    * resumo
    */
@@ -1389,9 +1367,6 @@ color: var(--yellow);
   .footer .container { grid-template-columns: repeat(3, 1fr); }
 
 }
-
-
-
 
 
 /**

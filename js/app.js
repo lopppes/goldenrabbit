@@ -13,7 +13,7 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 /**
- * preload
+ * preloader
  */
 
 const preloader = document.querySelector("[data-preloader]");
@@ -247,3 +247,4 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 // add click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 over.addEventListener("click", testimonialsModalFunc);
+
